@@ -23,8 +23,8 @@ except ValueError:
 
 # Tri de la liste
 sorted_nums = my_bubble_sort(nums)
-print(sorted_nums)
-# Affichage de la liste triée
+
+# Affichage de la liste triée sans [] et sans,
 for num in sorted_nums:
     print(num, end=' ')
 print()
